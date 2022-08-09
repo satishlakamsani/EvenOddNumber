@@ -1,0 +1,39 @@
+/* Write your CSS here*/
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.count-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  width: 400px;
+  border-radius: 12px;
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+}
+.count {
+  font-family: 'Roboto';
+  font-size: 28px;
+  color: #0f172a;
+}
+.description {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #334155;
+}
+.increment-button {
+  height: 30px;
+  width: 190px;
+  color: #1e293b;
+  border-radius: 6px;
+}
+.note {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #1e293b;
+}
